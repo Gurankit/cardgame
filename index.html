@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="game.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="game">
+        <div class="levels">
+            <div class="levelin">
+                <h2>Level :-</h2>
+                <div class="inc">
+                    <button onclick="leveldec()">-</button>
+                    <span id="lvl"></span>
+                    <button onclick="levelinc()">+</button>
+                </div>
+            </div>
+            <div class="timer">
+                <span id="min">00</span>:<span id="sec">00</span>
+            </div>
+        </div>
+        <div class="gamein">
+            <div class="gameinin">
+                <h2>Welcome !</h2>
+                <h2>Choose your Level &</h2>
+                <h2>Press Start</h2>
+            </div>
+        </div>
+        <span id="oops"></span>
+        <div class="foot">
+            <span id="start" onclick="start()">Start</span>
+        </div>
+    </div>
+    <div class="records">
+        <h2>Game statistics</h2>
+        <div class="recordsin">
+
+        </div>
+    </div>
+    <script src="./game.js"></script>
+</body>
+</html>
